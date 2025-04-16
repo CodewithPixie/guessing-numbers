@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#82e0aa;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.title-container {
+  text-align: center;
+  position: relative;
+  top: 4rem;
+}
+
+.guessing-container {
+  position: relative;
+  left: 44rem;
+  top: 7rem;
+  display: flex;
+  justify-content: center;
+  background-color: #58d68d;
+  font-size: 1rem;
+  padding: 10em;
+  width: 30rem;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.guessing-output {
+  color: white;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10rem;
+}
+
+.guessing-input {
+  position: relative;
+  left: 7rem;
+  padding: 1rem 5rem;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+}
+
+.design-btn {
+  display: flex;
+  margin-left: 1rem;
+  position: relative;
+  top: 6em;
+  right: 11rem;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  border-radius: 20rem;
+}
